@@ -4,7 +4,7 @@ int main()
     // keyword/data type (Same meaning)
     // variable/identifier (Same meaning)
 
-    printf("Hello World");
+    printf("Hello World"); 
 
 
     // There are two types of comments in C programming.
@@ -25,7 +25,5 @@ int main()
     double d=567.856398639463; // format specifier of double --> %lf
 
     char f = 'r'; // format specifier of char --> %c
-
-
 
 }
