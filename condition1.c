@@ -8,8 +8,17 @@ int main()
 
     scanf("%d %d", &num1, &num2);
 
-    if(num1>num2)
+    printf("%d\n", num1);
+
+    if(num1<num2)
     {
-        
+         printf("Azan\n");
+         printf("%d is smallest between the numbers\n", num1);
+    }
+
+    else
+    {
+        printf("Azan\n");
+        printf("%d is smallest between the numbers\n", num2);
     }
 }
