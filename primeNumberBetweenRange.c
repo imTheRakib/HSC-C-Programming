@@ -9,6 +9,8 @@ int main()
     printf("Enter the ending number: ");
     scanf("%d", &end);
 
+    printf("\n");
+    
     int count2 = 0;
 
     for (int i = start; i <= end; i++)
