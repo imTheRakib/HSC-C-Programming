@@ -13,20 +13,20 @@ int main()
     
     int count2 = 0;
 
-    for (int i = start; i <= end; i++)
+    for (int i = start; i <= end; i++) 
     {
-        int count1 = 0;
+        int count1 = 0; // It values the adding of receiving collaborating overall values 
 
         for (int j = 2; j < i; j++)
         {
             if (i % j == 0)
             {
                 count1++;
-                break;
+                break; // This requirements needs the value of the body & it facts that 
             }
         }
 
-        if (i > 1)
+        if (i > 1) // This indicates the random memory management 
         {
             if (count1 == 0)
             {

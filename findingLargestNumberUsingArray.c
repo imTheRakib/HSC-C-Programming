@@ -8,7 +8,7 @@ int main()
 
     for(int i=0; i<n; i++)
     {
-        scanf("%d", &a[i]);
+        scanf("%d", &a[i]); 
     }
 
     int max = a[0]; // max = 16
@@ -22,5 +22,5 @@ int main()
         }
     }
 
-    printf(" We find Largest number = %d at position %d and at index %d\n", max, track+1, track);
+    printf("We find Largest number = %d at position %d and at index %d\n", max, track+1, track);
 }
